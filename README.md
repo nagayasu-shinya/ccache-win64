@@ -14,6 +14,7 @@ ccache is a compiler cache. It speeds up recompilation by caching the result of 
 
 Just download ccache.exe and zlib1.dll, and set PATH to these files.
 
+
 ## How to use ?
 
 
@@ -32,3 +33,19 @@ If you use Makefile, you should change pattern rule like following sample code.
 
 ```
 If you need more detail, see [Official Documentation](https://ccache.samba.org/documentation.html).
+
+
+
+### FYI How to build this binary
+
+This binary is build on MinGW. 
+All it takes is following.
+
+```
+$ wget https://www.samba.org/ftp/ccache/ccache-X.X.tar.gz
+$ tar zxvf ccache-X.X.tar.gz
+$ cd ccache-X.X/
+$ ./configure
+$ make
+$ make install
+```
