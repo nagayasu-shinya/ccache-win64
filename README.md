@@ -36,9 +36,9 @@ If you need more detail, see [Official Documentation](https://ccache.samba.org/d
 
 
 
-### FYI How to build this binary
+### How to build this binary
 
-This binary is build on MinGW. 
+This binary is build on MinGW.
 All it takes is following.
 
 ```
@@ -49,3 +49,9 @@ $ ./configure
 $ make
 $ make install
 ```
+
+## If you want official ccache binary for windows
+
+Please see following issue.
+
+[The future of ccache's support for running on Windows](https://github.com/ccache/ccache/issues/447)
