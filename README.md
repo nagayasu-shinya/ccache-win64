@@ -42,9 +42,9 @@ This binary is build on MinGW.
 All it takes is following.
 
 ```
-$ wget https://www.samba.org/ftp/ccache/ccache-X.X.tar.gz
-$ tar zxvf ccache-X.X.tar.gz
-$ cd ccache-X.X/
+$ wget https://github.com/ccache/ccache/releases/download/v3.7.2/ccache-3.7.2.tar.gz
+$ tar zxvf ccache-3.7.2.tar.gz
+$ cd ccache-3.7.2/
 $ ./configure
 $ make
 $ make install
