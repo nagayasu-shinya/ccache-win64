@@ -2,6 +2,8 @@
 
 ccache binary file (executable file) for 64bit Windows.
 
+NOTE: As of 2020-09-23, the official site has released windows binary. If you need more details, refer the [Official site](https://ccache.dev/platform-compiler-language-support.html).
+
 ## what's ccache ?
 
 ccache is a compiler cache. It speeds up recompilation by caching the result of previous compilations and detecting when the same compilation is being done again. Supported languages are C, C++, Objective-C and Objective-C++.
